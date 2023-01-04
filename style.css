@@ -1,0 +1,83 @@
+/* common css start */
+*{
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* common css end */
+/* header section start */
+#header{
+    background: rgb(14, 47, 68);
+      justify-content: space-between;
+}
+#header .container .row{
+    justify-content: space-between;
+}
+#header p{
+ padding: 20px 0;
+font-size: 16px;
+line-height: 24px;
+color: #fefefe;
+font-weight: 400;
+text-align: center;
+
+}
+
+/* header section end */
+/* Nav section start */
+nav{
+    text-align: center;
+}
+nav div .row{
+    align-items: center;
+}
+nav .container .logo{
+    width: 15%;
+    margin: 30px 0;
+}
+nav .container .menu{
+    width: 85%;
+}
+nav .container .row ul{
+    justify-content: flex-end;
+}
+nav .menu ul li a{
+    font-size: 16px;
+    line-height: 24px;
+    color: #0f2f44;
+    font-weight: 500;
+    text-align: right;
+    padding: 40px 17px;
+    display: inline;
+    transition: .6s;
+}
+nav .menu ul li a:hover{
+    background-color: #fff9e6;
+    color: #ffd447;
+}
+nav .container .row ul .icon a i {
+   color: #ffd447;
+   
+}
+/* Nav section end */
+/* banner section start */
+#banner{
+    background-image: url(Bizzency_banner.jpg);
+}
+/* banner section end */
